@@ -1,34 +1,16 @@
-first_int = 15
-first_str = "Igal"
+# This is a sample Python script.
+
+# Press ⌃R to execute it or replace it with your code.
+# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def foo1(arg):
-    if arg < 0:
-        return "Error !!"
-    else:
-        print(type(arg))
-        print(f"test {arg} script with external {first_str}")
-        print(foo2())
-        return "Success :)"
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
-def foo2():
-    return "It worked !!"
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
 
-
-# user_input = input("Hello - enter number \n")
-# if user_input.isdigit() is False:
-#     print("Error !! - not a digit")
-# else:
-#     foo1_output = foo1(first_int * int(user_input))
-#     print(foo1_output)
-
-user_input = ''
-while user_input != 'exit':
-    user_input = input("Enter 0 \n")
-    try:
-        if user_input.isdigit():
-            result = 15 / int(user_input)
-            print(f"Your result is {int(result)}")
-    except ZeroDivisionError:
-        print("You cannot divide by 0")
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
